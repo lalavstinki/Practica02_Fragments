@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lala.myapplication.Fragment_Botones"
+    android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="0.2"
+                android:id="@+id/SQUIRTLE_GRANDE"
+                android:src="@drawable/squirtle"
+                android:scaleType="centerInside"
+                android:padding="10px"
+                android:background="@null"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="0.2"
+                android:id="@+id/BULBASAUR_GRANDE"
+                android:src="@drawable/bulbasaur"
+                android:scaleType="centerInside"
+                android:padding="10px"
+                android:background="@null"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="0.2"
+                android:id="@+id/CHARMANDER_GRANDE"
+                android:src="@drawable/charmander"
+                android:scaleType="centerInside"
+                android:padding="10px"
+                android:background="@null"/>
+
+
+</LinearLayout>
